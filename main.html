@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Question</title>
+        <script>
+            function change() {
+        var header = document.getElementById("love");
+        var yes = document.getElementById("Yes");
+        var no = document.getElementById("no");
+        header.innerText = "I LOVE YOU TOO BABI!";
+        yes.style.display = "none"
+        no.style.display = "none"
+      }
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="content">
+                <h1 id="love">Do you love me?</h1>
+                <br>
+                <button id="Yes" onclick="change()">Yes</button> <button id="no">No</button>
+            </div>
+        </div>
+    </body>
+</html>

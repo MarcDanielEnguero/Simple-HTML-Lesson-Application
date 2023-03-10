@@ -1,0 +1,33 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: gray;
+}
+#main {
+    background-color: white;
+    padding: 100px;
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 25px;
+}
+#content {
+    text-align: center;
+    justify-content: center;
+}
+button {
+    margin: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 20px;
+}
+button:hover{
+    background-color: gray
+}
+#no:active {
+    background-color: red;
+}
